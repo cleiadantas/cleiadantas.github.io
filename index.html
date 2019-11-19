@@ -2,16 +2,26 @@
 <html>
 <head>
 	<title>Cleia's Sketch</title>
+	<script type="text/javascript" src="processing.js"></script>
 <style>
 	h1{color:blue;}
 	p{color:red;}
+#theCanvas {
+	width:500px;
+	margin: auto;
+	border: 2px solid black;
+	display: block;
+}
+
 </style>
 </head>
 
 <body>
 <h1>Processing ART</h1>
 <h2>Title: Over the Rainbow</h2>
-<iframe src="sketch.html"></iframe>
+<canvas id="theCanvas" data-processing-sources="myProgram.pde"></canvas>
+
+<!-- <iframe src="sketch.html"></iframe> -->
 <p> Artist Statement </p> 
 
 </body>

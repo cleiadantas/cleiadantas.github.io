@@ -75,6 +75,6 @@ iframe {
 .callback {
   position: absolute;
   font-family: monospace;
-  padding-bottom: 70px;
+  padding-bottom: 40px;
   bottom: 0px;
 } 
